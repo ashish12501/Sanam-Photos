@@ -171,12 +171,18 @@
     .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
         transform: rotate(-45deg);
     }
-
+    .logo2 img{
+        margin-top: 15px;
+    }
 }
 
 @media (max-width: 500px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
+    }
+
+    .logo2 img{
+        margin-top: 45px;
     }
 }
 /* ----------------------------INFO________________________________________ */
@@ -202,6 +208,7 @@
     /* background-color: #6849d5; */
     height: 40%;
     width: 55%; 
+    margin-top: ;
 }
 
 .info .name{
@@ -221,7 +228,7 @@
 .txt{
     margin: 15px 0 10px 0;
 }
-h2{
+h3{
     display: flex;
     justify-content: center;
     align-items: center;
