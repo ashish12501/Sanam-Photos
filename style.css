@@ -259,8 +259,14 @@
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    border-radius: 10px;
   }
   
+  /* .column img:hover{
+    width: 110%;
+    height: 110%;
+  } */    
+
   @media (max-width: 1200px) {
     .column {
       flex: 40%;
